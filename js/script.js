@@ -26,6 +26,6 @@ function populateUI(data){
     document.getElementById("o3-text").innerHTML = data.data.iaqi.o3.v;
 }
 locations.onchange = () =>{
-    const currentCity = locations.ariaValueMax;
+    const currentCity = locations.Value;
     fetchData(currentCity);
 }
